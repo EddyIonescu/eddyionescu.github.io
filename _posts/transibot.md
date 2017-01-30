@@ -55,13 +55,13 @@ Disadvantages:
 <li>It's Javascript. Syntax standards are sometimes inconsistent - and the syntax itself is very ugly. Maybe one day Node.JS will diverge from the rest of JS and establish itself as a different back-end language (after all, many refer to it as just "Node").</li>
 <li>It's difficult to write good code. Why?  </li>
 <ol><li>Dynamic Types: This makes it harder to know whether your code will actually work or just crash. Static typing takes more typing, but in the end it saves a lot of time.</li>
-<li>Undefined: Everything is undefined. Property doesn't exist? Undefined. Out of bounds? Undefined. Give me an undefined? No problem, I'll give you an undefined. Debugging can quickly become a nightmare.</li></ol></li>
-<li>Everything's asynchronous. It requires a different (more functional) way of thinking. Calling one function right after another does not guarantee that it'll finish last - you (or rather, your bot) can get a lot of strange behaviour, like: Goodbye! Next bus in 5 minutes. Good morning. Get used to Callbacks and Promises. </li></ol></li>
+<li>Undefined: Everything is undefined. Property doesn't exist? Undefined. Out of bounds? Undefined. Give me an undefined? No problem, I'll give you an undefined. Debugging can quickly become a nightmare.</li>
+<li>Everything's asynchronous. It requires a different (more functional) way of thinking. Calling one function right after another does not guarantee that it'll finish last - you (or rather, your bot) can get a lot of strange behaviour, like: Goodbye! Next bus in 5 minutes. Good morning. Get used to Callbacks and Promises. </li></ol>
 </ul>
 
 Coping strategies:
 <li>Pretend it's a functional programming language. See, learning Racket really helped here.</li>
-<li>Use <a href="https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promises</a> for handling network calls instead of a bunch of callbacks - makes program a bit easier to reason about.</li>
+<li>Use <a href="https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promises</a> for handling network calls instead of a bunch of callbacks - makes the code a bit easier to reason about.</li>
 <li>Comment in what type of objects I'm getting properties from. Node has no way of knowing whether a property I got from a REST API call exists without actually trying it - so being clear in my code is a great way to spend less time debugging.
 
 Now for making it. I decided to host it on AWS because while it's more complicated than say, Heroku, it's way more powerful and I wanted to become familiar with it.
@@ -77,11 +77,11 @@ Production:
 </ul>
 
 Development:
-<ul>
+
 <li>Hosted on AWS EC2 Instance</li>
 <li>Couldn't use AWS certificate manager for EC2, so I had to buy one (about $10/year, thanks <a href="http://velocity.uwaterloo.ca">Velocity</a> for covering that :) for devbot.transibot.com (as Messenger only communicates via https with certificates signed by a certificate authority).</li>
 <li>Used NGinx on Ubuntu as to set up Https and SSL on the instance.</li>
-</ul>
+
 
 Tutorials I referred to:
 Note - I didn't follow any of these tutorials exactly, they were just useful references for when I was unsure of how do to something. They may be outdated. If you run into problems, use Google/StackOverflow.
@@ -93,7 +93,7 @@ Note - I didn't follow any of these tutorials exactly, they were just useful ref
 <li><a href="http://www.zoharbabin.com/install-ssl-on-ubuntu-and-enable-https/">http://www.zoharbabin.com/install-ssl-on-ubuntu-and-enable-https/</a></li>
 </ul>
 
-Check it out here: <a href="https://github.com/EddyIonescu/Transibot">https://github.com/EddyIonescu/Transibot</a>
+See it on Github: <a href="https://github.com/EddyIonescu/Transibot">https://github.com/EddyIonescu/Transibot</a> and try it out here: <a href="https://m.me/Transibot">https://m.me/Transibot</a>
 
 Thoughts for the future:
 

@@ -60,7 +60,7 @@ Disadvantages:
 
 Coping strategies:
 <ul>
-<li>Pretend it's a functional programming language. See, learning Racket really helped here.</li>
+<li>Pretend it's a pure functional programming language. See, learning Racket really helped here.</li>
 <li>Use <a href="https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promises</a> for handling network calls instead of a bunch of callbacks - makes the code a bit easier to reason about.</li>
 <li>Comment in what type of objects I'm getting properties from. Node has no way of knowing whether a property I got from a REST API call exists without actually trying it - so being clear in my code is a great way to spend less time debugging.
 </ul>

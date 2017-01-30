@@ -8,7 +8,7 @@ I decided that I wanted to make a chatbot myself because:
 
 Self-explanatory. Apps are so 2015. Plus back-end development is more interesting than client-side.
 
-<h2 id="l2">It's possibly the future and making a bot will allow me to realize its strengths and weaknesses</h2>
+<h2 id="l2">It's possibly the future - and might inspire some good ideas</h2>
 
 The biggest advantage they offer over web-sites (no matter how fast and mobile-friendly) and apps is that they're so easy to use. Our home screens are cluttered with apps that we'll likely never use ever again 
 - but it's guaranteed that there'll be at least one messaging app front and centre. There's nothing to install, nor to bookmark. Instead of searching up a friend, you search up "Transibot" - and you're in!
@@ -60,10 +60,11 @@ Disadvantages:
 </ul>
 
 Coping strategies:
+<ul>
 <li>Pretend it's a functional programming language. See, learning Racket really helped here.</li>
 <li>Use <a href="https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promises</a> for handling network calls instead of a bunch of callbacks - makes the code a bit easier to reason about.</li>
 <li>Comment in what type of objects I'm getting properties from. Node has no way of knowing whether a property I got from a REST API call exists without actually trying it - so being clear in my code is a great way to spend less time debugging.
-
+</ul>
 Now for making it. I decided to host it on AWS because while it's more complicated than say, Heroku, it's way more powerful and I wanted to become familiar with it.
 
 I'm actually hosting two chatbots: a production version and a development version (the master and dev branches on <a href="https://github.com/EddyIonescu/Transibot>github</a>).

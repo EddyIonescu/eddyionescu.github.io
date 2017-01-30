@@ -77,11 +77,11 @@ Production:
 </ul>
 
 Development:
-
+<ul>
 <li>Hosted on AWS EC2 Instance</li>
-<li>Couldn't use AWS certificate manager for EC2, so I had to buy one (about $10/year, thanks  for covering that :) for devbot.transibot.com (as Messenger only communicates via https with certificates signed by a certificate authority).</li>
+<li>Couldn't use AWS certificate manager for EC2, so I had to buy one (about $10/year, thanks <a href="http://velocity.uwaterloo.ca">Velocity</a> for covering that :) for devbot.transibot.com (as Messenger only communicates via https with certificates signed by a certificate authority).</li>
 <li>Used NGinx on Ubuntu as to set up Https and SSL on the instance.</li>
-
+</ul>
 
 Tutorials I referred to:
 Note - I didn't follow any of these tutorials exactly, they were just useful references for when I was unsure of how do to something. They may be outdated. If you run into problems, use Google/StackOverflow.

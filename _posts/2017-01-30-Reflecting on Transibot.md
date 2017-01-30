@@ -10,8 +10,7 @@ Self-explanatory. Apps are so 2015. Plus back-end development is more interestin
 
 <h2 id="l2">It's possibly the future - and might inspire some good ideas</h2>
 
-The biggest advantage they offer over web-sites (no matter how fast and mobile-friendly) and apps is that they're so easy to use. Our home screens are cluttered with apps that we'll likely never use ever again 
-- but it's guaranteed that there'll be at least one messaging app front and centre. There's nothing to install, nor to bookmark. Instead of searching up a friend, you search up "Transibot" - and you're in!
+The biggest advantage they offer over web-sites (no matter how fast and mobile-friendly) and apps is that they're so easy to use. Our home screens are cluttered with apps that we'll likely never use ever again - but it's guaranteed that there'll be at least one messaging app front and centre. There's nothing to install, nor to bookmark. Instead of searching up a friend, you search up "Transibot" - and you're in!
 
 That's the name of the chatbot I made - Transibot. It tells you when the next buses closest to you will arrive - in real-time! 
 It only works for Waterloo Region at the moment - but I plan on adding more cities soon.

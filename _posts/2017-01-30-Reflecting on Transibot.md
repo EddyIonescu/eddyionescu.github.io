@@ -73,15 +73,15 @@ Production:
 <ul>
 <li>Hosted on AWS Elastic-Beanstalk.</li>
 <li>Has auto-scaling and load-balancing.</li>
-<li>Used AWS certificate manager to make SSL certificate (free) for bot.transibot.com (as Messenger only communicates via https).</li>
+<li>Used AWS certificate manager to make SSL certificate (free) for bot.transibot.com (as Messenger only communicates via HTTPS).</li>
 <li>Configured VPC (Virtual Privater Cloud) as to have outside Internet access and allow inbound connections.</li>
 </ul>
 
 Development:
 <ul>
 <li>Hosted on AWS EC2 Instance</li>
-<li>Couldn't use AWS certificate manager for EC2, so I had to buy one (about $10/year, thanks <a href="http://velocity.uwaterloo.ca">Velocity</a> for covering that :) for devbot.transibot.com (as Messenger only communicates via https with certificates signed by a certificate authority).</li>
-<li>Used NGinx on Ubuntu as to set up Https and SSL on the instance.</li>
+<li>Couldn't use AWS certificate manager for EC2, so I had to buy one (about $10/year, thanks <a href="http://velocity.uwaterloo.ca">Velocity</a> for covering that :) for devbot.transibot.com (as Facebook wants certificates signed by a certificate authority).</li>
+<li>Used NGINX on Ubuntu as to set up HTTPS and SSL on the instance.</li>
 </ul>
 
 Tutorials I referred to:
@@ -96,10 +96,13 @@ Note - I didn't follow any of these tutorials exactly, they were just useful ref
 
 See it on Github: <a href="https://github.com/EddyIonescu/Transibot">github.com/EddyIonescu/Transibot</a> and try it out here: <a href="https://m.me/Transibot">m.me/Transibot</a>
 
-Thoughts for the future:
+
+<h2 id="l4">Thoughts for the future</h2>
 
 Chatbots won't be used everywhere - there'll still be a place for apps and web-sites; it's the simpler ones that will either convert to chatbots or die out and get replaced by competitor bots.
+
 On the other hand, because they're so easy to use, they have the potential to disrupt (for lack of a better buzzword) existing services that exist only as mobile apps. 
+
 Take Google Maps, for example; finding out when the next bus will arrive takes way more work - like opening the app, inserting your destination, tapping some other stuff, etc.
 
 Once Transibot starts supporting more cities around Canada and the US along with other platforms (WeChat, Kik, Skype), I'll follow up on its usage, trends (yay, big data!), and other things I've learned along the way.

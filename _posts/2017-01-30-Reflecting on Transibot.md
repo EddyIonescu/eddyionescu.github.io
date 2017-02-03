@@ -18,13 +18,13 @@ It only works for Waterloo Region at the moment - but I plan on adding more citi
 The compromise is freedom (on the front-end, at least). 
 
 Facebook's API is limited in how you can communicate with the user - so I couldn't show an interactive map and read-in the input or show any nested-menus.
-The front-end had to be simple and straightforward. While this works well for Transibot, it's difficult to have bots for apps like Spotify, 
+The frontend had to be simple and straightforward. While this works well for Transibot, it's difficult to have bots for apps like Spotify, 
 where tapping a few times is easier than typing out what you want to listen to. It'd be like using a command-line version!
 
-Monetization is also an issue - as even most subtle ad or sponsored message would stand out in a conversation (plus, it's against the rules for Messenger bots).
-So while you can't monetize the front-end, there's a lot of potential in monetizing the back-end (did anyone say big data?).
+Monetization is also an issue - as even the most subtle ad or sponsored message would stand out in a conversation (plus, it's against the rules for Messenger bots).
+So while you can't monetize the front-end, there's a lot of potential in monetizing the backend (did anyone say big data?).
 
-When it comes to the back-end, you couldn't have any more freedom.
+When it comes to the backend, you couldn't have any more freedom.
 
 Unlike mobile apps, where you have to resubmit each time you change something, there's no way anyone can enforce what my bot's going to respond.
 
@@ -62,8 +62,9 @@ Coping strategies:
 <ul>
 <li>Pretend it's a pure functional programming language. See, learning Racket really helped here.</li>
 <li>Use <a href="https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promises</a> for handling network calls instead of a bunch of callbacks - makes the code a bit easier to reason about.</li>
-<li>Comment in what type of objects I'm getting properties from. Node has no way of knowing whether a property I got from a REST API call exists without actually trying it - so being clear in my code is a great way to spend less time debugging.
+<li>Comment in what type of objects I'm getting properties from. Node has no way of knowing whether a property I got from a REST API call exists without actually trying it - so being clear in my code is a great way to spend less time debugging.</li>
 </ul>
+
 Now for making it. I decided to host it on AWS because while it's more complicated than say, Heroku, it's way more powerful and I wanted to become familiar with it.
 
 I'm actually hosting two chatbots: a production version and a development version (the master and dev branches on <a href="https://github.com/EddyIonescu/Transibot">github</a>).

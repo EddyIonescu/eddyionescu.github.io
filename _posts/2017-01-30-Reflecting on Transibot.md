@@ -1,3 +1,7 @@
+---
+title: Reflecting on Transibot
+---
+
 Look, I made a chatbot!
 
 We all know that chatbots are one of the latest buzzwords floating around in the tech world, but when was the last time a chatbot really did anything useful for you (or maybe the other way around if it was advanced enough)?

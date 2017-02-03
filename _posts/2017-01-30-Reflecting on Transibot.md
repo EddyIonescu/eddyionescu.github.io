@@ -86,25 +86,25 @@ Development:
 
 Tutorials I referred to:
 Note - I didn't follow any of these tutorials exactly, they were just useful references for when I was unsure of how do to something. They may be outdated. If you run into problems, use Google/StackOverflow.
-&nbsp;
+
 <ul>
 <li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-16-04">digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-16-04</a></li>
 <li><a href="http://programmersdiary.com/node/deploy-mean-stack-app-on-amazon-ec2/">programmersdiary.com/node/deploy-mean-stack-app-on-amazon-ec2/</a></li>
 <li><a href="https://www.digitalocean.com/community/tutorials/how-to-create-an-ssl-certificate-on-nginx-for-ubuntu-14-04">digitalocean.com/community/tutorials/how-to-create-an-ssl-certificate-on-nginx-for-ubuntu-14-04</a></li>
 <li><a href="http://www.zoharbabin.com/install-ssl-on-ubuntu-and-enable-https/">zoharbabin.com/install-ssl-on-ubuntu-and-enable-https/</a></li>
 </ul>
-&nbsp;
+
 See it on Github: <a href="https://github.com/EddyIonescu/Transibot">github.com/EddyIonescu/Transibot</a> and try it out here: <a href="https://m.me/Transibot">m.me/Transibot</a>
-&nbsp;
+
 
 <h2 id="l4">Thoughts for the future</h2>
 
 Chatbots won't be used everywhere - there'll still be a place for apps and web-sites; it's the simpler ones that will either convert to chatbots or die out and get replaced by competitor bots.
-&nbsp;&nbsp;
+
 On the other hand, because they're so easy to use, they have the potential to disrupt (for lack of a better buzzword) existing services that exist only as mobile apps. 
-&nbsp;&nbsp;
+
 Take Google Maps, for example; finding out when the next bus will arrive takes way more work - like opening the app, inserting your destination, tapping some other stuff, etc.
-&nbsp;&nbsp;
+
 Once Transibot starts supporting more cities around Canada and the US along with other platforms (WeChat, Kik, Skype), I'll follow up on its usage, trends (yay, big data!), and other things I've learned along the way.
 
 

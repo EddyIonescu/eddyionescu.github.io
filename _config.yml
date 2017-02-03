@@ -11,8 +11,8 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: http://eddyionescu.github.io/
-baseurl: /
+url: http://eddyionescu.com/
+baseurl: http://eddyionescu.com/
 title: Eddy Ionescu
 author: Eddy Ionescu
 description: Eddy's personal website

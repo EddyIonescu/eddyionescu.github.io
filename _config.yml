@@ -15,7 +15,7 @@ url: http://eddyionescu.com/
 baseurl: http://eddyionescu.com/
 title: Eddy Ionescu
 author: Eddy Ionescu
-description: Eddy's personal website
+#description: Eddy's personal website
 avatar: profile.png
 email: eddyionescu@gmail.com
 github: EddyIonescu # username

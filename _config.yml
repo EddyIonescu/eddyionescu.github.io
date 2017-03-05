@@ -5,7 +5,7 @@ rdiscount:
   extensions: [smart]
 permalink: /:title.html
 paginate: 5
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-redirect-from]
 port: 3000
 safe: true
 
@@ -22,6 +22,9 @@ github: EddyIonescu # username
 linkedin: eduard-ionescu
 google_analytics: UA-90625193-1
 
+redirect_from:
+  - /resume.pdf
+  - /eddy_resume.pdf
 
 # needed for travis-ci build
 exclude: [vendor]

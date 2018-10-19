@@ -8,6 +8,9 @@ paginate: 5
 gems: [jekyll-paginate, jekyll-redirect-from]
 port: 3000
 safe: true
+plugins:
+  - jekyll-redirect-from
+
 
 
 # edit here to achieve your personal greatness
